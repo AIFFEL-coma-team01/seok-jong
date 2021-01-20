@@ -10,5 +10,9 @@ def isPalindrome(s:str)->bool:
 
 
 
+
+
+
+
 str="A man, a plan, a canal: Panama"
 print(isPalindrome(str))

@@ -1,4 +1,6 @@
-def reorderLogFiles(logs:[str])->list:
+from typing import *
+
+def reorderLogFiles(logs:List[str])->list:
     s=sorted(logs)
     print(s)
 
