@@ -120,26 +120,9 @@ class MyCircularDeque:
 
 # Your MyCircularDeque object will be instantiated and called as such:
 obj = MyCircularDeque(4)
-param_1 = obj.insertFront(9)
-param_4 = obj.deleteLast()
-param_6 = obj.getRear()
-param_6 = obj.getRear()
+print(obj.insertFront(9))
+print(obj.deleteLast())
+print(obj.getRear())
+print(obj.getRear())
 
 
-
-param_5 = obj.getFront()
-param_2 = obj.insertLast(3)
-param_5 = obj.getFront()
-param_1 = obj.insertFront(9)
-param_6 = obj.getRear()
-param_5 = obj.getFront()
-param_5 = obj.getFront()
-param_4 = obj.deleteLast()
-param_6 = obj.getRear()
-
-param_3 = obj.deleteFront()
-param_4 = obj.deleteLast()
-param_5 = obj.getFront()
-param_6 = obj.getRear()
-param_7 = obj.isEmpty()
-param_8 = obj.isFull()
